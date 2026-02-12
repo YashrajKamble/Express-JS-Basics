@@ -11,8 +11,8 @@ const port = 3000
 app.use(express.static(path.join(__dirname, "public")))
 // app.use(MiddleWare)
 
-app.get('/hello', (req, res) => {
-    res.send('Hello World!')
+app.get('/hello/:name', (req, res) => {
+    res.send('Hello World! ' +  req.params.name)
 })
 
 app.get('/about', (req, res) => {
