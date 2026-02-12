@@ -9,7 +9,9 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     // res.send('this is official about page')
-    res.sendFile(path.join(__dirname, "index.html"))
+    // res.sendFile(path.join(__dirname, "index.html"))
+    // res.status(500)
+    res.json({ "course": "expressjs" })
 })
 
 app.listen(port, () => {
