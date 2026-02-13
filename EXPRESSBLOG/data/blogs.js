@@ -1,27 +1,27 @@
 
 blogs = [
     {
-        title: "python",
+        title: "how to get start with python",
         content: "python content",
         slug: "python-learning"
     },
     {
-        title: "react",
+        title: "how to get start with react",
         content: "react content",
         slug: "react-learning"
     },
     {
-        title: "js",
+        title: "how to get start with js",
         content: "js content",
         slug: "js-learning"
     },
     {
-        title: "ts",
+        title: "how to get start with ts",
         content: "ts content",
         slug: "ts content-learning"
     },
     {
-        title: "nodejs",
+        title: "how to get start with nodejs",
         content: "nodejs content",
         slug: "nodejs-learning"
     },
